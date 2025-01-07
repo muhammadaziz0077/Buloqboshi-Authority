@@ -1,0 +1,131 @@
+/* Styling for the input field with search icon */
+#myInput {
+    margin-top: 30px;
+    background-position: 10px center; /* Center the search icon vertically */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Font size */
+    padding: 12px 20px 12px 40px; /* Add padding with extra space for icon */
+    border: 1px solid #ddd; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 12px; /* Space below the input */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for a 3D effect */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Border style */
+    font-size: 16px; /* Font size */
+}
+
+/* Styling for table headers and cells */
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Padding */
+    border-bottom: 1px solid #ddd; /* Border for cells */
+}
+
+/* Styling for table rows */
+#myTable tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row colors */
+}
+
+#myTable tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Styling for the table header */
+#myTable th {
+    background-color: #0800ff; /* Header background color */
+    color: white; /* Header text color */
+    position: sticky; /* Make header sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1; /* Ensure it stays above other rows */
+    border-bottom: 2px solid #ddd; /* Thicker border for header */
+}
+.card-r {
+    margin-top: 50px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background-color: white;
+    /* Default background color */
+    transition: background 0.5s ease, color 0.5s ease;
+    /* Transition for background and text */
+  }
+  .container p{
+    font-size: 13px;
+  }
+  .cardm-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 16px;
+
+  }
+  .sarlavha-rahbariyat{
+    text-align: center;
+    color: #0800ff;
+    padding: 100px;
+    font-size: 50px;
+    border: #000000;
+    hyphens: manual;
+    font-display: 22px;
+  }
+  .cardm-title {
+    font-size: 16px;
+    margin: 16px 0;
+    /* Pastda va yuqorida bo'shliq qo'shish */
+    transition: font-weight 0.5s ease;
+    /* Transition for text weight */
+  }
+  
+  .cardm-text {
+    font-size: 10px;
+    margin-bottom: 30px;
+    transition: font-weight 0.5s ease;
+    /* Transition for text weight */
+  
+  }
+  
+  .card-r:hover {
+    cursor: grab;
+    background: linear-gradient(135deg, #0800ff, #000000);
+    /* Gradient background on hover */
+    color: white;
+    /* Change text color on hover */
+  }
+  
+  
+  .like-button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    /* Gradient background for button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-size: 200% 200%;
+    /* For gradient animation */
+  }
+  
+  .arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+.coming h1{
+  color: #0800ff;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 50px;
+}
